@@ -22,8 +22,12 @@ int main()
 
     else if( s== '/')
     {
+       if(num2==0){
+            cout<<"NOT DEFINED";
+        }
+        else{
        double  ans = (double)num1/ num2 ;
-        cout<< ans;
+        cout<< ans;}
     }
 
     else if( s== '*')
